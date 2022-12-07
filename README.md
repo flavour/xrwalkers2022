@@ -1,6 +1,7 @@
 # XR Walkers 2022
 
-A Map showing all the walks done by XR Walkers in 2022
+A Map showing all the walks done by XR Walkers in 2022:
+* https://flavour.github.io/xrwalkers2022/
 
 To join XR Walkers:
 * https://mailchi.mp/82eb3183021c/xr-walkers-landing-page
