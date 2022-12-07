@@ -1,0 +1,54 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:4326"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.316688, 51.462587]
+        },
+        "properties": {
+          "name": "Richmond Lock"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.002, 53.647]
+        },
+        "properties": {
+          "name": "Southport Station"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.0708, 53.5535]
+        },
+        "properties": {
+          "name": "Formby Station"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-3.002, 53.647],
+            [-3.0708, 53.5535]
+          ]
+        },
+        "properties": {
+          "name": "2022-02-25"
+        }
+      }
+    ]
+  }
