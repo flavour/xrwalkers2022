@@ -12,6 +12,8 @@ To join XR Walkers:
   * Have a Line for each Line
 * Add Photos
 * Make a Quiz to match Photos to Walks
+  * Make work on small screen, e.g. Mobile
+  * Tada! if get all right
 
 ## Developers
 ```

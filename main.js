@@ -88,10 +88,29 @@ map.on('click', function (evt) {
     return;
   }
   popup.setPosition(evt.coordinate);
+  let content;
+  const name = feature.get('name');
+  if (name) {
+    // Point
+    content = name;
+  } else {
+    // LineString
+    const date = feature.get('date');
+    const img = feature.get('img');
+    const map = feature.get('map');
+    content = '<div class="tac">' + date + '</div>';
+    if (img) {
+      content += '<img src="img/' + img + '.jpeg" height="150">';
+    }
+    if (map) {
+      content += '<a href="' + map + '">' + map + '</a>';
+    }
+  }
+   
   popover = new bootstrap.Popover(element, {
     placement: 'top',
     html: true,
-    content: feature.get('name'),
+    content: content,
   });
   popover.show();
 });

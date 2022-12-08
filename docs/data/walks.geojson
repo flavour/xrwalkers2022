@@ -11,10 +11,70 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
+          "coordinates": [-1.899326, 52.477054]
+        },
+        "properties": {
+          "name": "Birmingham New Street"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-3.0708, 53.5535]
+        },
+        "properties": {
+          "name": "Formby Station"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.71422, 51.146576]
+        },
+        "properties": {
+          "name": "Glastonbury Abbey"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.00876, 53.7377286]
+        },
+        "properties": {
+          "name": "Hebden Bridge"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.2703, 51.7534]
+        },
+        "properties": {
+          "name": "Oxford Station"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
           "coordinates": [-0.316688, 51.462587]
         },
         "properties": {
           "name": "Richmond Lock"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.798498, 51.064975]
+        },
+        "properties": {
+          "name": "Salisbury Cathedral"
         }
       },
       {
@@ -31,10 +91,10 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [-3.0708, 53.5535]
+          "coordinates": [-2.644965, 51.210203]
         },
         "properties": {
-          "name": "Formby Station"
+          "name": "Wells Cathedral"
         }
       },
       {
@@ -47,7 +107,8 @@
           ]
         },
         "properties": {
-          "name": "2022-02-25"
+          "date": "2022-02-25",
+          "img": "03"
         }
       }
     ]
