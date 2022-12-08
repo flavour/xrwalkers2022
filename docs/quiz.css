@@ -1,0 +1,61 @@
+body {
+    font-size: 100%;
+}
+  
+h2 {
+    font-size: 1.5em;
+}
+ 
+p {
+    font-size: 0.875em;
+}
+
+#main {
+    width: 100%;
+    float: left;
+}
+#left {
+    float: left;
+    padding: 10px;
+    width: 45%;
+}
+#right {
+    float: right;
+    padding: 10px;
+    width: 45%;
+}
+.draggable {
+    margin: 10px;
+    padding: 10px;
+    float: right;
+}
+.draggable img {
+    height: 250px;
+}
+.width-full {
+    float: left;
+    width: 30%;
+}
+.droppable {
+    margin: 10px;
+    padding: 10px;
+    padding-top: 25px;
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    font-size: ;
+}
+.droppable.bad {
+    background-color: red;
+}
+.droppable.good {
+    background-color: green;
+}
+#footer {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
