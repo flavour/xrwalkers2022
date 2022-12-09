@@ -103,7 +103,13 @@ map.on('click', function (evt) {
       content += '<img src="img/' + img + '.jpeg" height="150">';
     }
     if (map) {
-      content += '<a href="' + map + '">' + map + '</a>';
+      let map_label;
+      if (map.includes('plotaroute')) {
+        map_label = 'plotaroute';
+      } else {
+        map_label = 'osmaps';
+      }
+      content += '<div class="tac"><a href="' + map + '" target="_blank">' + map_label + '</a></div>';
     }
   }
    

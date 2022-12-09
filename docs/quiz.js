@@ -32,7 +32,14 @@ window.fetch('ding.mp3')
     dingBuffer = audioBuffer;
   });
     
-function play(audioBuffer) {
+window.fetch('tada.mp3')
+  .then(response => response.arrayBuffer())
+  .then(arrayBuffer => audioCtx.decodeAudioData(arrayBuffer))
+  .then(audioBuffer => {
+    tadaBuffer = audioBuffer;
+  });
+
+  function play(audioBuffer) {
   const source = audioCtx.createBufferSource();
   source.buffer = audioBuffer;
   source.connect(audioCtx.destination);
@@ -46,10 +53,15 @@ $(function() {
       var walk_id = $(this).attr('id').split('-')[1];
       var img_id = ui.draggable.attr('id').split('-')[1];
       if (img_id == walk_id) {
-        $(this).removeClass('bad').addClass('good');
-        play(dingBuffer);
+        $(this).removeClass('na').removeClass('bad').addClass('good');
+        if (($('.droppable.na').length == 0) && ($('.droppable.bad').length == 0)) {
+          // Complete
+          play(tadaBuffer);
+        } else {
+          play(dingBuffer);
+        }
       } else {
-        $(this).removeClass('good').addClass('bad');
+        $(this).removeClass('na').removeClass('good').addClass('bad');
         beep(400, 120, 1, 'sawtooth');
       }
     }

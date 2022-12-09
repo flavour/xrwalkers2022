@@ -7,13 +7,8 @@ To join XR Walkers:
 * https://mailchi.mp/82eb3183021c/xr-walkers-landing-page
 
 ## TODO
-* Show Walks on Map
-  * Have a Point for each Point
-  * Have a Line for each Line
-* Add Photos
-* Make a Quiz to match Photos to Walks
-  * Make work on small screen, e.g. Mobile
-  * Tada! if get all right
+* Add all Points, Lines, and Circles to GeoJSON
+* Make Quiz work on small screen, e.g. Mobile....not this time!
 
 ## Developers
 ```
