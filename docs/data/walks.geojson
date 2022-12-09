@@ -2293,9 +2293,9 @@
         },
         "properties": {
           "date": "2022-05-06",
-          "img": "05"
-        },
-        "map": "https://explore.osmaps.com/route/12105485/xr-oxford"
+          "img": "05",
+          "map": "https://explore.osmaps.com/route/12105485/xr-oxford"
+        }
       },
       {
         "type": "Feature",
