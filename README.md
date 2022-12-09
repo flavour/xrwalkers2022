@@ -22,6 +22,7 @@ To generate a build ready for production:
 npm run build
 ```
 
-Then deploy the contents of the `dist` directory to your server.
+Then deploy the contents of the `dist` directory to `docs` and edit index.html to remove the leading `/` from `/assets`
 
 You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+- to get this working you will need to copy the `data` & `img` folders from `docs` to `dist` after each build
